@@ -40,19 +40,28 @@ a{
     font-size: 30px;
     padding: 20px 0 0 0px; 
 }
+.new{
+
+    padding: 20px;
+
+
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+}
 .content{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-between;
+    width: 70%;
+    justify-content: flex-start;
     position: absolute;
-    gap: 5px;
-    top: 300px;
-
+    gap: 25px;
+    top: 200px;
 }
 .box{
     width: 300px;
-    height: 350px;
+    height: 300px;
     background-color: whitesmoke;
     border: 1px solid aqua;
     border-radius: 5px;
@@ -88,49 +97,6 @@ hr{
     font-weight: bolder;
     font-size: x-large;
 }
-@media screen and (min-width:300px) and (max-width:600px) {
-    .parent{
-        width: 380px;
-        margin: 20px;
-        padding: 20px;
-        background-size: cover;
-        display: flex;
-        position: absolute;
-        top: 20px;
-        right: 20px;
-    
-    }
-    .navbar{
-        height: 100px;
-        margin: 20px;
-        padding: 20px;
-        position: absolute;
-        text-align: left;
-        bottom: 50px;
-        top: -60px;
-    
-    }
-    .plus{
-        display: flex;
-        position: absolute;
-        left: 170px;
-        top: 100px;
-    }
-    .content{
-        gap: 10px;
-        top: 170px;
-    }
-}
-
-
-
-
-
-
-
-
-
-
 .container{
      width: 400px;
      height: 250px;
@@ -138,7 +104,7 @@ hr{
      box-shadow: 2px 2px 5px grey;
      border-radius: 5px;
      position: absolute;
-     top: 184px;
+     top: 284px;
      left: 448px;
 }
 .container1{
@@ -177,25 +143,6 @@ hr{
     border-radius: 5px;
     padding: 10px 20px;
 }
-@media screen and (min-width:300px) and (max-width:600px){
-     .container{
-        width: 370px;
-        height: 250px;
-        position: absolute;
-        top: 300px;
-        left: 0px;
-    
-    }
-}
-
-.navbar1{
-    width: 100%;
-    height: 60px;
-    box-shadow: 2px 2px 25px;
-    background-color: aliceblue;
-    font-size: 30px;
-    font-weight: bold;
-}
 .parent3{
     padding: 20px 0px 10px 15px;
 }
@@ -204,6 +151,11 @@ hr{
     position: absolute;
     right: 700px;
     top: 120px;
+}
+.new1{
+
+    padding-left: 800px;
+    padding-top: 85px;
 }
 .back{
     display: flex;
@@ -215,12 +167,16 @@ hr{
     color: black;
     font-size: 20px;
 }
-.bac{
- padding-left: 500px;
+.bac a{
+    position: absolute;
+    top: 142px;
+    right: 950px;
 }
+    
+    
 .parent3{
     width: 400px;
-    height: 350px;
+    height: 300px;
     box-shadow: 2px 2px 5px solid grey;
     position: absolute;
     top: 200px;
@@ -230,50 +186,65 @@ hr{
     border-radius: 5px;
 }
 .blur{
-    filter: blur(5px);
+    filter: blur(4px);
 }
-@media screen and (min-width:300px) and (max-width:600px){
-    .parent{
-        width: 380px;
-        margin: 20px;
+@media screen and (min-width:250px) and (max-width:500px){
+    .navbar{
+        width: 100%;
+        height: 100px;
         padding: 20px;
-        background-size: cover;
+        position: absolute;
+    }
+    .plus{
         display: flex;
         position: absolute;
-        top: 20px;
+        left: 200px;
+        top: 100px;
     }
-    .navbar1{
-    height: 80px;
-    margin: 20px;
-    padding: 20px;
-    position: absolute;
-    text-align: left;
-    bottom: 50px;
-    top: -20px;
-    right: -20px;
+    .new{
+        display: none;
+    }
+    .content{
+        width: 370px;
+        height: 250px;
+        position: absolute;
+        top: 200px;
+        gap: 10px;
+        justify-content: center;
+    }
 
+    .container{
+       width: 370px;
+       height: 250px;
+       position: absolute;
+       top: 300px;
+       left: 20px;
+   
    }
-   .plus1{
-    display: flex;
-    position: absolute;
-    left: 200px;
-    top: 100px;
-   }
+    .plus1{
+        display: flex;
+        position: absolute;
+        left: 200px;
+        top: 100px;
+    }
+    .new1{
+        display: none;
+    }
    .back{
     display: flex;
     position: absolute;
     left: 50px;
-    bottom: 520px;
+    top: 125px;
    }
-   .bac{
-   padding-left: 90px;
-   padding-top: 125px;
+   .bac a{
+      left: 80px;
+      top: 125px;
    }
    .parent3{
     width: 370px;
     height: 250px;
     position: absolute;
     top: 200px;
-    left: 0px;
+    left: 25px;
    }
 }
